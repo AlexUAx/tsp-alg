@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FACC3368174786DD000057D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACC3367174786DD000057D9 /* main.cpp */; };
 		FACC336A174786DD000057D9 /* TSP.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FACC3369174786DD000057D9 /* TSP.1 */; };
+		FACC33731747A365000057D9 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACC33711747A365000057D9 /* Tree.cpp */; };
+		FACC33761747A36F000057D9 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACC33741747A36F000057D9 /* Item.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,11 @@
 		FACC3364174786DD000057D9 /* TSP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TSP; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACC3367174786DD000057D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FACC3369174786DD000057D9 /* TSP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TSP.1; sourceTree = "<group>"; };
+		FACC337017478884000057D9 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		FACC33711747A365000057D9 /* Tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
+		FACC33721747A365000057D9 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		FACC33741747A36F000057D9 /* Item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		FACC33751747A36F000057D9 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +51,8 @@
 		FACC335B174786DD000057D9 = {
 			isa = PBXGroup;
 			children = (
-				FACC3366174786DD000057D9 /* TSP */,
 				FACC3365174786DD000057D9 /* Products */,
+				FACC3366174786DD000057D9 /* TSP */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				FACC3367174786DD000057D9 /* main.cpp */,
+				FACC33711747A365000057D9 /* Tree.cpp */,
+				FACC33721747A365000057D9 /* Tree.h */,
+				FACC33741747A36F000057D9 /* Item.cpp */,
+				FACC33751747A36F000057D9 /* Item.h */,
 				FACC3369174786DD000057D9 /* TSP.1 */,
+				FACC337017478884000057D9 /* Point.h */,
 			);
 			path = TSP;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACC3368174786DD000057D9 /* main.cpp in Sources */,
+				FACC33731747A365000057D9 /* Tree.cpp in Sources */,
+				FACC33761747A36F000057D9 /* Item.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
